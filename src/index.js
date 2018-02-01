@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import ChatBot from 'react-simple-chatbot';
 //import './index.css';
+import TopNav from "./components/Header/TopNav";
 
 class Bot extends React.Component{
   /*constructor(props){
@@ -9,7 +10,7 @@ class Bot extends React.Component{
   }*/
   render(){
     return(
-    <h1>Header</h1>
+      <h1><TopNav/></h1>
     )
 
   }
