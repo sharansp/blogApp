@@ -1,13 +1,15 @@
 import React from "react";
-import './TopNav.scss';
-// import './TopNav.css';
+import  './TopNav.scss';
+import './TopNav.css';
 //require('./TopNav.scss');
 
 export default class Title extends React.Component {
 
     
     render() {
+        //console.log(styles);
         return (
+            
             <div className="top-nav" id="TopNav">
                 <a className="go-to-home">
                     <router-link to="/">
